@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83ed86e2-c230-4c76-b666-003c25c33442" name="Changes" comment="first commit" />
+    <list default="true" id="83ed86e2-c230-4c76-b666-003c25c33442" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/user/AddUser.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/user/AddUser.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/user/ListUser.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/user/ListUser.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/user/userSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/user/userSlice.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +18,17 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="52d05e37-0dfe-4631-9d36-778062505f4d" />
+        <option name="url" value="git@github.com:LuongCongThanh/redux-toolkit.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -31,15 +48,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "code.cleanup.on.save": "true",
-    "last_opened_file_path": "/Users/thanhluong/project_persional/redux-toolkit",
+    "last_opened_file_path": "D:/project_me/redux-toolkit",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.standard": "",
     "nodejs_package_manager_path": "npm",
     "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "actions.on.save",
-    "ts.external.directory.path": "/Users/thanhluong/project_persional/redux-toolkit/node_modules/typescript/lib",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "ts.external.directory.path": "D:\\project_me\\redux-toolkit\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -58,6 +75,8 @@
       <updated>1665302889586</updated>
       <workItem from="1665302891044" duration="3267000" />
       <workItem from="1665306192668" duration="33208000" />
+      <workItem from="1665585253313" duration="204000" />
+      <workItem from="1665585469229" duration="4356000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1665584086099</created>
