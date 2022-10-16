@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {Form, Popconfirm, Table, Typography} from "antd";
+import {Form, Popconfirm, Select, Table, Typography} from "antd";
 import '../../style/listUser.css';
 import EditTableCell from "../../components/EditTableCell";
 import userSlice, {selectListUser} from "./userSlice";
@@ -88,7 +88,22 @@ const ListUser = () => {
             title: 'Role',
             dataIndex: 'role',
             width: '40%',
-            editable: true,
+            render: (_: any, record: Item) => {
+                const editable = isEditing(record);
+                return editable ? (
+                    <Form.Item label="Role" name="role">
+                        <Select placeholder="Choose Role">
+                            <Select.Option value="TM">TM</Select.Option>
+                            <Select.Option value="TMA">TMA</Select.Option>
+                            <Select.Option value="SSE">SSE</Select.Option>
+                            <Select.Option value="SE">SE</Select.Option>
+                            <Select.Option value="ASE">ASE</Select.Option>
+                        </Select>
+                    </Form.Item>
+                ) : (
+                    <p>{record.role}</p>
+                );
+            },
         },
         {
             title: 'Action',
@@ -130,8 +145,6 @@ const ListUser = () => {
     });
     return (
         <div>
-
-
             <Form form={form} component={false}>
                 <Table
                     components={{
