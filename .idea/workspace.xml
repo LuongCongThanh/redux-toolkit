@@ -2,9 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83ed86e2-c230-4c76-b666-003c25c33442" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/blog.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/blog/Blog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/blog/blog.reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/blog/components/CreatePost.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/blog/components/PostItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/blog/components/PostList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/blog/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/blog.type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/user/ListUser.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/user/ListUser.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/hooks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/hooks.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/store.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/EditTableCell.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/counter/Counter.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/counter/Counter.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/counter/counterAPI.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/counter/counterSlice.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/counter/counterSlice.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/user/AddUser.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/user/ListUser.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/user/userSlice.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/listUser.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,35 +64,32 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="OptimizeOnSaveOptions">
-    <option name="myRunOnSave" value="true" />
-  </component>
   <component name="ProjectId" id="2FtEH7viltqc5adkOEKahtAgzX7" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/project_me/redux-toolkit&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\project_me\\redux-toolkit\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/project_me/redux-toolkit",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "D:\\project_me\\redux-toolkit\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "D:\\project_me\\redux-toolkit\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project_me\redux-toolkit\src\pages\blog\components" />
       <recent name="$PROJECT_DIR$/src/features/user" />
     </key>
   </component>
@@ -76,6 +106,9 @@
       <workItem from="1665585253313" duration="204000" />
       <workItem from="1665585469229" duration="4356000" />
       <workItem from="1665844992941" duration="2695000" />
+      <workItem from="1665894661737" duration="885000" />
+      <workItem from="1666191428601" duration="953000" />
+      <workItem from="1666796752330" duration="1983000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1665584086099</created>
